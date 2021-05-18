@@ -18,16 +18,24 @@ This is a demonstation on using Laravel Sanctum to create an API. In this projec
 Copy the `.env_example` to `.env` and define the enviroment values according to your machine.
 ```
   cp .env.example .env
+```
+```
   php artisan key:generate
 ```
 Install packages:
 ```
-  composer install --no-scripts
+  composer install
+```
+```
   npm install
+```
+```
   npm run dev
 ```
 Run migration and seeder:
 ```
   php artisan migrate
+```
+```
   php artisan db:seed
 ```
